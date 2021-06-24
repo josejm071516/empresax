@@ -14,6 +14,7 @@ use App\Http\Controllers\EmpresaController;
 |
 */
 /*****Empresa */
+Route::get('/','EmpresaController@index');
 Route::get('empresa/index','EmpresaController@index');
 Route::get('empresa/create','EmpresaController@create');
 Route::post('empresa/store','EmpresaController@store');
